@@ -4,3 +4,10 @@ class Procesador:
         return result
     def exe(self, d):
         return d ** 2
+
+    def main():
+
+
+if __name__=="__main__":
+    procesador = Procesador()
+    procesador.main()
