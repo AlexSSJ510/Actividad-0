@@ -2,10 +2,8 @@ class Calculadora:
     def calcular(self, multiplicando, multiplicador, sumador):
         result = multiplicando * multiplicador + sumador
         return result
-
     def potencia(self, base):
         return base ** 2
-
 
 if __name__ == "__main__":
     calculadora = Calculadora()
